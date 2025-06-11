@@ -6,8 +6,8 @@ Description: This script checks SMB share read/write access on multiple hosts us
              (write access). For each share where access is available, a CSV report line is written.
              A per-host timeout is applied such that a hung host is terminated after X seconds.
              Hosts that fail DNS resolution are skipped.
-Author: Your Name
-Date: Today's Date
+Author: 0x48756773 (Johnathan Drozdowski)
+Date: 11/06/2025
 """
 
 import argparse
